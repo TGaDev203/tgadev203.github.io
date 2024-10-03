@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact TGaDev</title>
     <link rel="stylesheet" href="../Css/Style.css">
+    <style>
+        /* Căn giữa phần contact-info */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .intro {
+            max-width: 800px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,25 +49,9 @@
 
         <div class="contact-info">
             <h3>Contact Information</h3>
-            <p>Email: <a href="mailto:hoangthuychimte@gmail.com">hoangthuychimte@gmail.com</a></p>
+            <p>Email: tgadev203@gmail.com</p>
             <p>Phone: +84 777587932</p>
             <p>Address: Ha Noi, Viet Nam</p>
-        </div>
-
-        <div class="contact-form">
-            <h3>Contact</h3>
-            <form action="submit_form.html" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
         </div>
     </main>
     
