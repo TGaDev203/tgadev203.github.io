@@ -44,5 +44,3 @@ You can explore my projects, background, and contact info through the site below
 ---
 
 📬 Feel free to check out my work or get in touch!
-
----
